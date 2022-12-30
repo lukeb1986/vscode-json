@@ -10,7 +10,6 @@
             "args": [
                 "--extensionDevelopmentPath=${workspaceRoot}"
             ],
-            "stopOnEntry": false,
             "sourceMaps": true,
             "outFiles": [
                 "${workspaceRoot}/out/src/**/*.js"
@@ -21,7 +20,6 @@
             "type": "node",
             "request": "attach",
             "name": "Attach to Extension Host",
-            "protocol": "inspector",
             "port": 5870,
             "restart": true,
             "outFiles": [
