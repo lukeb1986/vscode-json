@@ -69,7 +69,7 @@
 	"engines": {
 		"vscode": "^1.46.0"
 	},
-	"enableProposedApi": true,
+	"enabledProposedApi": true,
 	"main": "./out/extension.js",
 	"activationEvents": [
 		"onView:jsonOutline",
