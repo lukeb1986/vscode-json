@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { MarkdownString } from 'vscode';
+import * as vscode from 'vscode';
 
 /**
  * This is the place for API experiments and proposals.
@@ -1160,7 +1160,7 @@ declare module 'vscode' {
 		/**
 		 * Content to be shown when you hover over the tree item.
 		 */
-		tooltip?: string | MarkdownString | /* for compilation */ any;
+		tooltip?: string | vscode.MarkdownString | /* for compilation */ any;
 
 		/**
 		 * @param label Label describing this item
